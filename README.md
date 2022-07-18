@@ -7,5 +7,8 @@ with configuration via a YAML file on the Inky Frame's micro SD card.
 
 ## Build
 
-Install the [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk) and configure your `PICO_SDK_PATH` environment variable.
+Pull all the submodules to get the Pico SDK and the Pimoroni libraries:
+
+```git submodule update --init --recursive --depth=2```
+
 Then you can build with `cmake -B build -S .; make -C build/`, the binary will be in `build/src/inky-plate-hassio.elf`
