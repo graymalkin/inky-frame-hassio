@@ -1,9 +1,6 @@
 [submodule "third-party/yaml-cpp"]
 	path = third-party/yaml-cpp
 	url = https://github.com/jbeder/yaml-cpp
-[submodule "third-party/no-OS-FatFS-SD-SPI-RPi-Pico"]
-	path = third-party/no-OS-FatFS-SD-SPI-RPi-Pico
-	url = https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico
 [submodule "third-party/pimoroni-pico"]
 	path = third-party/pimoroni-pico
 	url = https://github.com/pimoroni/pimoroni-pico
